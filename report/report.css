@@ -1,0 +1,204 @@
+
+.body_y{
+    margin: 0%;
+    padding: 0%;
+    background-color: whitesmoke;
+ }
+ .body_x{
+    margin: 0%;
+    padding: 0%;
+    background-color: whitesmoke;
+ }
+ /*-------------navigation bar-----------------------*/
+ .navbar{
+     display: flex;
+     background-color: rgb(40, 29, 202);
+     height: 100px;
+     width: 100%;
+     opacity: 0.76;
+ }
+ .navbar h2{
+     font-size: 2rem;
+     margin-left: 50px;
+     color: white;
+ }
+
+ .logout{
+    position: absolute;
+    top: 2rem;
+    right: 4rem;
+ }
+ .logout a{
+     text-decoration: none;
+     color: white;
+     font-size: 1.5rem;
+ }
+ .logout a:hover{
+     color:rgb(82, 71, 233);
+     text-decoration: underline;
+ 
+ }
+ table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+.table{
+    column-width: 200px;
+    text-align: center;
+}
+.table_e{
+    max-width:100px;
+    max-height:100px;
+    width:450px;
+    height:50px;
+    overflow:hidden;
+    word-wrap:break-word;
+    text-align: justify;
+}
+.table_x{
+    max-width:100px;
+    max-height:100px;
+    width:450px;
+    height:50px;
+    overflow:hidden;
+    word-wrap:break-word;
+    text-align: center;
+}
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.search_form{/*change*/
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 7.2rem;
+    left: 50rem;
+
+}
+.fetch{ /*change*/
+    display: flex;
+    position: absolute;
+    top: 7.5rem;
+    left: 20rem;
+
+}
+input[type="number"]{
+    height: 35px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+    outline: none;
+    
+}
+.search{
+    width: 170px;
+}
+input[type="date"]{
+    height: 25px;
+    outline: none;
+
+}
+.name{
+    font-size: 1.3rem;
+}
+.d_search{
+    font-size: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 100px;
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    background-color: bisque;
+    outline: none;
+}
+.v_search{
+    font-size: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 0px;
+    cursor: pointer;
+    width: 180px;
+    height: 30px;
+    background-color: bisque;
+    outline: none;
+}
+.select_key{  /*change*/
+    margin: 22px 33px;
+}
+.button_key{
+    margin: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+    border-radius: 13px;
+    cursor: pointer;
+    background-color: bisque;
+    outline: none;
+}
+.back_key{
+    background-color: bisque;
+    margin: 5px;
+    font-size: 1.3rem;
+    width: 170px;
+    text-align: center;
+    border-radius: 13px;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 45px;
+}
+.back_key2{
+    background-color: bisque;
+    margin: 5px;
+    margin-bottom: 45px;
+    font-size: 1.3rem;
+    padding: 2px 0px;
+    width: 215px;
+    text-align: center;
+    border-radius: 13px;
+    cursor: pointer;
+    outline: none;
+    
+}
+.pdf_download{
+    position: absolute;
+    top: 8.5rem;
+    right: 4rem;
+}
+.pdf_download button{
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    background-color: rgb(13, 231, 13);
+}
+.table1{
+    display: flex;
+    justify-content: center;
+    color: orange;
+    font-size: 1.5rem;
+    font: italic ;
+    height: 20px ;
+}
+.p1{
+    font-size: 1.3rem;
+    font: italic ;
+    display: flex;
+    justify-content: center;
+    color: rgb(74, 175, 243);
+}
+@media print{@page {
+    size: A3;
+  }
+}

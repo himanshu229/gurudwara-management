@@ -1,0 +1,103 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: whitesmoke;
+ }
+ /*-------------navigation bar-----------------------*/
+ .navbar{
+     display: flex;
+     background-color: rgb(40, 29, 202);
+     height: 100px;
+     width: 100%;
+     opacity: 0.76;
+ }
+
+ .logout{
+     margin-left:auto ;
+     padding: 35px 80px;
+ }
+ .logout a{
+     text-decoration: none;
+     color: white;
+     font-size: 1.5rem;
+ }
+ .logout a:hover{
+     color:rgb(82, 71, 233);
+     text-decoration: underline;
+ 
+ }
+ .heading{
+    text-align: center;
+    margin: 26px;
+    font-size: 2.8rem;
+    color:white;
+}
+ @media only screen and (max-width: 500px){
+    .heading{
+         font-size: 2.4rem;
+     }
+ }
+ /**************selection section********************/
+ .selection-section{
+     margin-top: 15px;
+     font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+ }
+ .selection-section div{
+     margin: 0px;
+ }
+ .entry{
+     font-size: 2rem;
+     font-family: 'Times New Roman', Times, serif;
+     color: rgb(238, 143, 143);
+ }
+ .expenditure{
+    margin-left: 90px;
+     font-size: 2rem;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .report{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(238, 143, 143);
+    border-top: 2px solid orange;
+    margin-top: 20px;
+    padding-top: 8px;
+    
+ }
+ input[type="button"]{
+     outline: none;
+     font-size: 2rem;
+     width: 322px;
+     margin-top: 22px;
+     background-color: rgb(202, 43, 241);
+     cursor: pointer;
+     color: white;
+     border-radius: 50px;
+ }
+ input[type="button"]:hover{
+    box-shadow: 0 0 10px rgb(202, 43, 241), 0 0 20px rgb(202, 43, 241), 0 0 40px rgb(202, 43, 241);
+    background-color: rgb(202, 43, 241);
+    color: wheat;
+ }
+
+.ask{
+    margin-top: 30px;
+    border: 0px solid black;
+    box-shadow: 0 0 30px black;
+    display: flex;
+    justify-content: center;
+    margin-left: 15rem;
+    width: 900px;
+    font-size: 2rem;
+    color: cornflowerblue;
+    border: none;
+}
+@media only screen and (max-width:1200px){
+    .ask{
+        margin-left: 8vmax;
+        width: 80vw;
+
+    }
+}
